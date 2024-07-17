@@ -1,12 +1,15 @@
 
-#nombre = input("inserte su nombre: ")
-#edad = input("Inserte su edad: ")
-#identificacion = input("Inserte su ID: ")
-#frase = print(f"Hola {nombre} su edad es {edad} y su ID es {identificacion}")
-identificacion = input("Ingrese su numero de identificacion: ")
-print(type(identificacion))
+nombre = input("inserte su nombre: ")
+edad = input("Inserte su edad: ")
+identificacion = input("Inserte su ID: ")
+frase = print(f"Hola {nombre} su edad es {edad} y su ID es {identificacion}")
 identidicacion2 = int(identificacion)
-print(type(identidicacion2))
+print(f"El doble de {identificacion} es {identificacion *2}")
+
+
+
+
+
 
 
 
